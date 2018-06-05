@@ -11,4 +11,10 @@
 	<name>springcloud</name>
 	<description>Demo project for Spring cloud</description>
 
+	<modules>
+		<module>springcloud-provider-user</module>
+		<module>service-feign</module>
+		<module>service-ribbon</module>
+		<module>eureka-server</module>
+	</modules>
 </project>
