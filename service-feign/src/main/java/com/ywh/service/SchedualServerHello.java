@@ -12,5 +12,5 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface SchedualServerHello {
 
     @RequestMapping(value = "/hello")
-    String sayHelloFromClient(@PathVariable(value = "user") String user);
+    String sayHelloFromClient(@RequestParam(value = "user") String user);
 }
